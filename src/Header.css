@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+a{
+    text-decoration: none;
+}
+
+
+.topbasContainer{
+    display: flex;
+ align-items: center;
+ padding: 10px 20px;
+justify-content: space-between;
+
+
+
+   background-color: blueviolet;
+}
+.topperCenter{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.toperLeft {
+    display: flex;
+ 
+   align-items: center;
+  justify-content: center;
+}
+.toperLeft a{
+    color: white;
+}
+
+.searchbar{
+    background-color: white;
+    width: 390px;
+    border-radius: 20px;
+    padding: 3.5px;
+    display: flex;
+    align-items: center;
+
+}
+.searchInput{
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+ .searchInput::placeholder{
+  padding-left: 10px;
+}
+.searchIcon{
+    font-size: 22px;
+    color: rgb(97, 95, 95);
+}
+.topperRight{
+    display: flex;
+   
+    justify-content: space-between;
+   
+  
+}
+
+
+@media(max-width:870px){
+    .searchbar{
+        display: none;
+    }.topbasContainer{
+      display: flex;
+      justify-content: center;
+    }.topperRight{
+        display: flex;
+      
+      justify-content: space-between;
+    }
+   
+}
+
+
+
+
+
+
+.man img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.topperlink{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+  
+   
+}
+@media(max-width:428px){
+    .topperlink{
+        display: none;
+       
+      
+       
+    }
+}
+span{
+    margin-left: 7px;
+}
+.man1{
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    margin: 0 15px;
+   
+ 
+}
+.man{
+    padding: 0 6px;
+}
+.man span{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    top: 2px;
+
+}
+
